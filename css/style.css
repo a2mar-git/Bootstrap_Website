@@ -320,6 +320,18 @@
         align-items: center;
     }
 }
+@media(max-width:390px){
+    .fiSec h2,p{
+        text-align: center;
+    }
+    .fiSec .btn{
+        display: flex;
+        justify-content: center;
+    }
+    .fiSec a{
+        text-decoration: none;
+    }
+}
 .siSec{
     width: 100%;
     margin-top: 5%;
@@ -353,18 +365,6 @@
     .siSec .content{
         width: 470px;
         margin-right: 50px;
-    }
-}
-@media(max-width:390px){
-    .fiSec h2,p{
-        text-align: center;
-    }
-    .fiSec .btn-1{
-        display: flex;
-        justify-content: center;
-    }
-    .fiSec a{
-        text-decoration: none;
     }
 }
 .siSec{
