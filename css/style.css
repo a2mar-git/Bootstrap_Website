@@ -126,11 +126,6 @@
     .hero p{
         text-align: center;
     }
-    .hero .btn-1{
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-    }
     .hero .btn{
         display: flex;
         justify-content: center;
