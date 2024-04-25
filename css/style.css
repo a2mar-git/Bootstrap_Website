@@ -315,16 +315,19 @@
         display: block;
         margin: auto;
     }
-    .fiSec h2{
+    .fiSec h2,p{
+        text-align: center;
+    }
+    .fiSec .row .btn{
+        display: flex;
         justify-content: center;
-        align-items: center;
     }
 }
 @media(max-width:390px){
     .fiSec h2,p{
         text-align: center;
     }
-    .fiSec .btn{
+    .fiSec .row .btn{
         display: flex;
         justify-content: center;
     }
